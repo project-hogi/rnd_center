@@ -1,6 +1,6 @@
 <!-- Header.html -->
 <div id="skip_nav">
-	<a href="container">본문바로가기</a>
+	<a href="content">본문바로가기</a>
 </div>
 <div id="wrap">
 	<div id="header">
@@ -96,9 +96,63 @@
 			</ul>
 			<!-- /.gnb -->
 			<a href="#none" class="btn-pds">자료 다운로드</a>
+			
+			<div class="header_menu">
+				<a href="#search" class="btn-search"><span class="sr-only">검색</span></a>
+				<a href="#sitemap" class="btn-sitemap"><span class="sr-only">사이트맵</span></a>
+			</div>
 		</div>
 	</div>
 	<div id="container">
+		<div id="visual">
+			<div class="visual-content">
+				<ul>
+					<li>
+						
+						<a href="#none" class="btn-visual">협의회 안내 바로가기 <span>&gt;</span></a>
+					</li>
+				</ul>
+				<div class="visual-pager">
+					<a href="#none"></a>
+					<a href="#none"></a>
+					<a href="#none"></a>
+				</div>
+				<div class="visual-control">
+					<a href="#prev" class="btn-prev"><span class="sr-only">이전</span></a>
+					<a href="#next" class="btn-next"><span class="sr-only">다음</span></a>
+				</div>
+			</div>
+		</div>
+		<!-- /#visual -->
+		<div class="main-banner">
+			<ul>
+				<li class="eq-01">
+					<a href="#none">
+						<strong>투자지원사업</strong>
+						<p>바로가기<span class="spot">&gt;</span></p>
+					</a>
+				</li>
+				<li class="eq-02">
+					<a href="#none">
+						<strong>기술혁신 투자연계</strong>
+						<p>바로가기<span class="spot">&gt;</span></p>
+					</a>
+				</li>
+				<li class="eq-03">
+					<a href="#none">
+						<strong>창업성장 투자연계</strong>
+						<p>바로가기<span class="spot">&gt;</span></p>
+					</a>
+				</li>
+				<li class="eq-04">
+					<a href="#none">
+						<strong>Online IR</strong>
+						<p>바로가기<span class="spot">&gt;</span></p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.main-banner -->
 		<div class="container">
 <!-- Header.html -->
 
