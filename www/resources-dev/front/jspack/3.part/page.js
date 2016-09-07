@@ -3,6 +3,8 @@
 (function($) {
 
 	$(document).on('appinit', function() {
+
+		
 	});
 
 	$(document).on('ready', function() {
@@ -45,7 +47,14 @@
 				$(this).removeClass('on');
 			});
 
-		})
+		});
+		
+
+		$(".rolling").marquee({
+			container : '>ul',
+			prev : '.roll_prev',
+			next : '.roll_next',
+		});
 
 
 	});
