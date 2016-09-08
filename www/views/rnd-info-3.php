@@ -3,8 +3,8 @@
 <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/lib.php"; ?>
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
-<?php require "part/header-sub1-1.php"; ?>
-
+<?php require "part/header-sub.php"; ?>
+<div class="sub-content">
 <h3 class="point-check">제출서류 및 관련규정</h3>
 
 
@@ -26,7 +26,7 @@
       <th>해당여부</th>
     </tr>
   </thead>
-  <tbody> 
+  <tbody>
     <tr>
       <td rowspan="2">①</td>
       <td rowspan="2"><div align="left">● 중소기업 기술개발지원 사업계획서 </div></td>

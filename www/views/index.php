@@ -15,7 +15,7 @@
 		<div class="visual-pager">
 			<a href="#none"></a>
 			<a href="#none"></a>
-			<a href="#none"></a>
+			<a href="#none"></a> 
 		</div>
 		<div class="visual-control">
 			<a href="#prev" class="btn-prev"><span class="sr-only">이전</span></a>

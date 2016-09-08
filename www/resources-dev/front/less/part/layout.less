@@ -450,9 +450,6 @@
 		position: relative;
 	}
 }
-#snb{
-	background-color: #99f;
-}
 #content{
 	overflow: hidden;
 }
@@ -692,9 +689,6 @@
 	
 }
 
-.spot{
-	color: #ef4136 !important;	
-}
 
 
 /*con_bottom*/
@@ -873,22 +867,31 @@
 	
 	p{
 		margin: 0;
+		margin-bottom: 40px;
 		text-align: center;
 		font-size: 13px;
 		color: #707070;
 	}
 }
 .snb{
-	padding-top: 40px;
 	width: 800px;
 	margin: auto;
+	border: 1px solid #e3e3e3;
 	
+	&:after{
+		clear: both;display: block;content: '';
+	}
 	li{
 		display: block;
 		float: left;
 		width: 100%;
 		background-color: #fff;
 		text-align: center;
+		border-left: 1px solid #e3e3e3;
+		
+		&:first-child{
+			border: 0;
+		}
 		
 		&.on{
 			background-color: #2e3c60;
@@ -940,21 +943,122 @@
 .sub-content{
 	width: 800px;
 	margin: auto;
+	padding-bottom: 100px;
 }
-.point-check{
-	margin-bottom: 30px;
-	padding-left: 25px;
+
+
+
+
+
+
+
+
+
+
+/* custom */
+.custom-button1{
+	margin: 0 10px 0;
+	border: 1px solid #bababa;
+	font-weight: bold;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,e8e8e8+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 1%, #e8e8e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 1%,#e8e8e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 1%,#e8e8e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+}
+.way_map{
+	width: 100%;
+	min-width: 800px;
+	margin: 35px 0;
+	
+}
+
+
+
+
+/* common */
+
+h3{
 	font-size: 18px;
 	line-height: 18px;
+	margin-top: 55px;
+	margin-bottom: 30px;
+}
+h4{
+	font-size: 18px;
+	line-height: 1.4em;
+	color: #333;
+}
+label{
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	color: #666;
+}
+input{
+	vertical-align: middle;
+}
+input[type="radio"]{
+	margin: 0 5px;
+}
+
+.btn{
+	border-radius: 3px;
+}
+.select{
+  width: 200px;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-family: inherit;
+  background: #fff url(../images/btn/select.png)no-repeat 95% 50%;
+  border: 1px solid #d9d9d9;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.ml20{
+	margin-left: 20px;
+}
+.spot{
+	color: #ef4136 !important;	
+}
+
+.point-spot{
+	color: #fff;
+	background-color: #2e3c60 !important;	/* 남색 */
+}
+.point-spot1{
+	color: #fff;
+	background-color: #ef624e !important;	/* 적색 */
+}
+.point-spot2{
+	color: #fff;
+	background-color: #9e9e9e !important;	/* 회색 */
+}
+.point-form_title{
+	display: block;
+	height: 45px;
+	padding-top: 15px;
+	font-size: 14px;
+}
+.point-sub-pencil{
+	padding-left: 58px;
+	background: url(../images/sub/form-title.png)10px 10px no-repeat;
+}
+.point-sub-document{
+	padding-left: 58px;
+	background: url(../images/sub/form-title.png)10px -70px no-repeat;
+}
+
+.point-check{
+	padding-left: 25px;
 	background: url(../images/sub/checkpoint.png)0 2px no-repeat;
-	
 }
 .point-low{
 	position: relative;
 	padding-left: 30px;
-	font-size: 18px;
-	line-height: 18px;
-	color: #333;
 	
 	&:after{
 		clear: both;display: block;content: '';
@@ -965,19 +1069,36 @@
 		background-color: #d7d7d7;
 	}
 }
+.point-button-style{
+	display: inline-block;
+	margin: 20px 0;
+	padding: 15px 95px;
+	background-color: #d7d9db;
+	border: 6px solid #fff;
+	border-radius:20px;
+	color: #2e3c60;
+	font-weight: bold;
+}
+.point-width-md{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.point-explain{
+	colorl: #d2d2d2;
+	
+}
+
 .flr{
 	float: right;
 }
 .tac{
  	text-align: center;
 }
-
 .point-alert{
 	padding-left: 27px;
 	min-height:20px;
 	line-height: 20px;
 	background: url(../images/sub/point-alert.png)0 3px no-repeat;
-	
 }
 .under-table{
 	margin-top: 15px;
@@ -1000,13 +1121,30 @@
 		color: #f0f0f0;
 	}
 }
+.btn-download{
+	padding-left: 30px;
+	background: #ff9920 url(../images/btn/btn-download.png)10px 50% no-repeat;
+}
+
 .list-base{
 	padding-left: 25px;
-	
 }
+.list-base1{
+	padding-left: 35px;
+	line-height: 1.6em;
+	font-size: 15px;
+}
+.listbox-default{
+	padding: 30px 20px;
+	border: 1px solid #d2d2d2;
+	background-color: #fff;
+	li{
+		line-height: 26px;
+	}
+}
+
 .next-chapter{
-	margin-top: 70px;
-	
+	margin-top: 50px;
 }
 
 /* table-primary */
@@ -1024,7 +1162,7 @@
 }
 .table-primary th {
 	padding: 10px 6px 8px;
-	background-color: #f8f8f8;
+	background-color: #fff;
 	font-size: 14px;
 	line-height: 1.4em;
 	color: #333
@@ -1035,16 +1173,72 @@
 	line-height: 1.4em;
 	color: #333
 }
+/* table-form */
+.table-form{
+	width: 100%;
+	table-layout: auto;
+	border-collapse: collapse;
+}
+.table-form{
+	tbody{
+		border: 1px solid #ddd;
+	}
+}
+.table-form th, .table-form td {
+	vertical-align: middle;
+	font-weight: normal;
+	line-height: 1.4em;
+	min-height:48px;
+	
+	label{
+		padding-left: 20px;
+		line-height: 1.2em;
+		margin: 8px 0;
+	}
+}
+.table-form th {
+	padding:  0;
+	font-size: 14px;
+	
+	.point-explain{
+		color: #999;
+	}
+	
+}
+.table-form td {
+	padding: 6px;
+	font-size: 13px;
+	
+	label{
+		color: #999;
+	}
+}
 
 
 
-
-
-
-
-
-
-
+.form{
+	font-size: 14px;
+	padding: 5px 10px;
+	border: 1px solid #d9d9d9;
+}
+.form-xs{
+	width: 100px;
+}
+.form-md{
+	width: 160px;
+}
+.form-lg{
+	width: 228px;
+}
+.form-xl{
+	width: 341px;
+}
+.form-space{
+	display: inline-block;
+	width: 19px;
+	text-align: center;
+	font-size: 12px;
+}
 
 
 
