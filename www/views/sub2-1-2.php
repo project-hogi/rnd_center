@@ -8,7 +8,7 @@
 <h3 class="point-check">투자연계멘토링과제 사업 안내</h3>
 
 
-<img src="/resources-dev/front/images/page/sub2-1-2.png" alt="진행절차 소개 다이어그램" />
+<img src="<?php echo $config["resourcesDir"]; ?>/images/page/sub2-1-2.png" alt="진행절차 소개 다이어그램" />
 
 
 

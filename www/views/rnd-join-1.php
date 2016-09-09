@@ -4,7 +4,7 @@
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
-
+<div class="sub-content">
 <h3 class="point-check">회원가입안내</h3>
 <h4 class="point-low next-chapter">기술혁신개발사업 투자연계과제 신청기업</h4>
 

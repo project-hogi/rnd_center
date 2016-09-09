@@ -18,7 +18,7 @@
 <ul class="list-base1">
 	<li>심의조정위원회는 종합평점 순위와 지원예산 규모 등을 고려하여서 최종 지원과제 및 정부 출연금액을 심의 후 확정합니다</li>
 </ul>
-<p class="tac"><span class="point-button-style">종합평점 = 대면평가 평점 - 감점</span></p>
+<p class="tac"><span class="point-button-style m20_0">종합평점 = 대면평가 평점 - 감점</span></p>
 <h4 class="point-low">협약체결 및 정부지원금 지급(7월)</h4>
 <ul class="list-base1">
 	<li>투자유치 완료기업에 대해 주관기관과 전문기관이 과제개발 협약체결과 정부지원금 지급합니다.</li>

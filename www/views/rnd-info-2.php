@@ -8,7 +8,7 @@
 <h3 class="point-check">진행절차</h3>
 
 
-<img src="/resources-dev/front/images/page/sub1-1-2.jpg" alt="진행절차 표" />
+<img src="<?php echo $config["resourcesDir"]; ?>/images/page/sub1-1-2.jpg" alt="진행절차 표" />
 
 
 

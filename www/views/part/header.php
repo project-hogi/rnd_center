@@ -76,10 +76,9 @@
 						<a href="sub4-1.php">정보마당</a>
 						<ul>
 							<li><a href="sub4-1.php">공지사항</a></li>
-							<li><a href="#none">자료실</a></li>
-							<li><a href="#none">E-mail상담</a></li>
-							<li><a href="#none">FAQ</a></li>
-							<li><a href="#none">협회일정</a></li>
+							<li><a href="sub4-2.php">자료실</a></li>
+							<li><a href="sub4-3.php">E-mail상담</a></li>
+							<li><a href="sub4-4.php">FAQ</a></li>
 						</ul>
 					</li>
 					<li>

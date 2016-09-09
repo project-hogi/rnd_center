@@ -5,24 +5,24 @@
 	  <div class="conwrap">
 	  	<div class="rolling">
 	        <ul>
-	           <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner1.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner2.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner3.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner4.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner5.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner6.png"></a></li>
-	           <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner1.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner2.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner3.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner4.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner5.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner6.png"></a></li>
-	           <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner1.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner2.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner3.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner4.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner5.png"></a></li>
-	            <li><a href="#none" target="_blank"><img src="/resources-dev/front/images/linkbanner/linkbanner6.png"></a></li>
+	           <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner1.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner2.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner3.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner4.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner5.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner6.png"></a></li>
+	           <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner1.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner2.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner3.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner4.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner5.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner6.png"></a></li>
+	           <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner1.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner2.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner3.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner4.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner5.png"></a></li>
+	            <li><a href="#none" target="_blank"><img src="<?php echo $config["resourcesDir"]; ?>/images/linkbanner/linkbanner6.png"></a></li>
 	        </ul>
 	        <a href="#none" class="roll_prev"></a>
 	        <a href="#none" class="roll_next"></a>

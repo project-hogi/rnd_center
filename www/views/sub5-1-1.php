@@ -17,7 +17,7 @@
 <h4 class="point-low">투자연계형 중소기업기술개발사업등 혁신형 중소기업에 대한 정부의 R&amp;D 자금의 효율적인 배분을 위하여 민간투자기관의 사업성 검증(투자금 매칭방식)도입으로 전문기관의 대면평가(기술성)와 벤처캐피탈의 사업성 평가 연계</h4>
 
 
-<p class="tac"><span class="point-button-style" style="width:418px;padding-left:0;padding-right:0;">과제 심사 및 사후관리의 책임성, 전문성 확보</span></p>
+<p class="tac mt30"><span class="point-button-style" style="width:418px;padding-left:0;padding-right:0;">과제 심사 및 사후관리의 책임성, 전문성 확보</span></p>
 
 <p class="tac"><span class="point-button-style" style="width:418px;padding-left:0;padding-right:0;">혁신형 중소기업에 대한 민간 벤처캐피탈의 투자활성화</span></p>
 

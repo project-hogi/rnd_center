@@ -62,7 +62,7 @@
 				<a href="#none">
 					[입찰공고] 정부위탁 사업 운영을 위한 회계법...
 				</a>
-				<img src="/resources-dev/front/images/main/con1-1.png" alt="2015년 이머징 테크놀로지 포럼 개최 안내" />
+				<img src="<?php echo $config["resourcesDir"]; ?>/images/main/con1-1.png" alt="2015년 이머징 테크놀로지 포럼 개최 안내" />
 				<span class="date">2016.08.18</span>
 			</li>
 			<li>

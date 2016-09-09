@@ -4,10 +4,7 @@
 <?php require "part/app-header.php"; ?>
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
-
-
-
-
+<div class="sub-content">
 <form action="">
 <fieldset>
 	<h3 class="point-form_title point-sub-pencil point-spot">회사정보 입력</h3>
@@ -67,7 +64,7 @@
 			</tr>
 			<tr>
 				<th><label for="join-form-11">이메일</label></th>
-				<td><input type="text" id="join-form-11" class="form form-md"><span class="form-space">@</span><input type="text" class="form form-md "><select name="email-type1" id="" class="select ml20"><option>직접입력</option><option>Google.com</option><option>Naver.com</option></select></td>
+				<td><input type="text" id="join-form-11" class="form form-md"><span class="form-space">@</span><input type="text" class="form form-md "><select name="email-type1" id="" class="select form-md ml20"><option>직접입력</option><option>Google.com</option><option>Naver.com</option></select></td>
 			</tr>
 		</tbody>
 		<tbody>
@@ -81,7 +78,7 @@
 			</tr>
 			<tr>
 				<th><label for="join-form-14">이메일</label></th>
-				<td><input type="text" id="join-form-14" class="form form-md"><span class="form-space">@</span><input type="text" class="form form-md "><select name="email-type1" id="" class="select ml20"><option>직접입력</option><option>Google.com</option><option>Naver.com</option></select></td>
+				<td><input type="text" id="join-form-14" class="form form-md"><span class="form-space">@</span><input type="text" class="form form-md "><select name="email-type1" id="" class="select form-md ml20"><option>직접입력</option><option>Google.com</option><option>Naver.com</option></select></td>
 			</tr>
 		</tbody>
 	</table>
