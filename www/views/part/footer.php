@@ -1,5 +1,4 @@
 <!-- Footer.html -->
-		</div>
 	</div>
 	<div id="con_bottom">
 	  <div class="conwrap">

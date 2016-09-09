@@ -28,7 +28,7 @@
 그 외 교대역과 서초역 사이 정차버스 11,12,21</p>
 
 </div>
-
+</div>
 
 <?php require "part/footer-sub.php"; ?>
 <?php require "part/footer.php"; ?>
