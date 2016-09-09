@@ -37,11 +37,7 @@
 <!--[if gte IE 9]><!--><script src="../resources/front/js/vendor/jquery.min.js"></script><![endif]-->
 <script src="../resources/front/js/script.min.js"></script>
 </head>
-<body class="<br />
-<b>Warning</b>:  Missing argument 2 for getBodyClass(), called in C:\workspace\rnd_center\www\views\part\app-header.html on line 69 and defined in <b>C:\workspace\rnd_center\www\lib.html</b> on line <b>32</b><br />
-<br />
-<b>Notice</b>:  Undefined variable: classString in <b>C:\workspace\rnd_center\www\lib.html</b> on line <b>38</b><br />
-">
+<body class="layout-page">
 <!-- //App Header.html -->
 <!-- Header.html -->
 <div id="skip_nav">
@@ -75,23 +71,28 @@
 								<a href="rnd-choice-1.html">선정기업</a>
 								<ul>
 									<li><a href="rnd-choice-1.html">기업정보</a></li>
-									<li><a href="rnd-choice-2.html">반기 주요경영상황보고</a></li>
-									<li><a href="rnd-choice-3.html">제출서류 연차보고서 관련규정</a></li>
+									<li><a href="rnd-choice-2.html">반기주요경영상황보고</a></li>
+									<li><a href="rnd-choice-3.html">연차보고서</a></li>
 									<li><a href="rnd-choice-4.html">수시보고서</a></li>
 									<li><a href="rnd-choice-5.html">비밀번호변경</a></li>
 								</ul>
 							</li>
 							<li>
 								<a href="rnd-invest.html">투자기관</a>
+								<ul>
+									<li><a href=rnd-invest-1.html>투자심사신청기업정보</a></li>
+									<li><a href=rnd-invest-2.html>투자기업현황</a></li>
+									<li><a href=rnd-invest-3.html>회원정보수정</a></li>
+								</ul>
 							</li>
 							<li>
 								<a href="rnd-application.html">신청기업</a>
-							</li>
-							<li>
-								<a href="rnd-selection.html">선정신청</a>
-							</li>
-							<li>
-								<a href="rnd-7.html">투자기관</a>
+								<ul>
+									<li><a href="rnd-application-1.html">기업정보등록</a></li>
+									<li><a href="rnd-application-2.html">투자심사 진행현황</a></li>
+									<li><a href="rnd-application-3.html">투자협상 현황등록</a></li>
+									<li><a href="rnd-application-4.html">비밀번호변경</a></li>
+								</ul>
 							</li>
 						</ul>
 					</li>
@@ -188,7 +189,7 @@
 
 
 
-<!-- Header Sub.html -->
+    <!-- Header Sub.html -->
 <div id="sub-top">
 	<div class="location">
 		<a href="/" class="home">홈</a>
@@ -209,117 +210,265 @@
 			</div>
 <div id="content">
 <!-- //Header Sub.html -->
-<div class="sub-content">
-
-
-<form action="">
-<fieldset>
-	<h3 class="point-form_title point-sub-pencil point-spot">회사정보 입력</h3>
-
-	<table class="table table-form">
-		<col width="167" />
-		<col />
-		<tbody>
-			<tr>
-				<th><label for="">회원구분</label></th>
-				<td><label for="join-form-00">멘토</label><input type="radio" id="join-form-00" name="join-form-00"><label for="join-form-001" class="ml20">전문가</label><input type="radio" id="join-form-001" name="join-form-00" class=""><label for="join-form-002" class="ml20">회계법인</label><input type="radio" id="join-form-002" name="join-form-00" class=""></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-01">회원아이디</label></th>
-				<td><input type="text" id="join-form-01" class="form form-lg"><a class="btn btn-default custom-button1">중복검사</a><span class="point-explain">영문,숫자,특수문자 혼합 8자 이상 12자 이내</span></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-02">비밀번호</label></th>
-				<td><input type="password" id="join-form-02" class="form form-lg"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-03">비밀번호 확인</label></th>
-				<td><input type="password" id="join-form-03" class="form form-lg"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-04">회사/소속명</label></th>
-				<td><input type="text" id="join-form-04" class="form form-xl"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-05">대표자명</label></th>
-				<td><input type="text" id="join-form-05" class="form form-xl"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-06">사업자번호</label></th>
-				<td><input type="text" id="join-form-06" class="form form-xs"><span class="form-space">-</span><input type="text" class="form form-xs"><span class="form-space">-</span><input type="text" class="form form-xs"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-07">전화번호</label></th>
-				<td><input type="text" id="join-form-07" class="form form-xs"><span class="form-space">-</span><input type="text" class="form form-xs"><span class="form-space">-</span><input type="text" class="form form-xs"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-08">팩스번호</label></th>
-				<td><input type="text" id="join-form-08" class="form form-xs"><span class="form-space">-</span><input type="text" class="form form-xs "><span class="form-space">-</span><input type="text" class="form form-xs "></td>
-			</tr>
-		</tbody>
-	</table>
-	
-	<h3 class="point-form_title point-sub-document point-spot1">담당자정보 입력</h3>	
-	
-	<table class="table table-form">
-		<col width="167" />
-		<col />
-		<tbody>
-			<tr>
-				<th><label for="join-form-09">성명 (담당자1)</label></th>
-				<td><input type="text" id="join-form-09" class="form form-lg"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-10">전화번호</label></th>
-				<td><input type="text" id="join-form-10" class="form form-xs"><span class="form-space">-</span><input type="text" class="form form-xs "><span class="form-space">-</span><input type="text" class="form form-xs "></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-11">이메일</label></th>
-				<td><input type="text" id="join-form-11" class="form form-md"><span class="form-space">@</span><input type="text" class="form form-md "><select name="email-type1" id="" class="select form-ml ml20"><option>직접입력</option><option>Google.com</option><option>Naver.com</option></select></td>
-			</tr>
-		</tbody>
-		<tbody>
-			<tr>
-				<th><label for="join-form-12">성명 (담당자2)</label></th>
-				<td><input type="text" id="join-form-12" class="form form-xl"></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-13">전화번호</label></th>
-				<td><input type="text" id="join-form-13" class="form form-xs"><span class="form-space">-</span><input type="text" class="form form-xs "><span class="form-space">-</span><input type="text" class="form form-xs "></td>
-			</tr>
-			<tr>
-				<th><label for="join-form-14">이메일</label></th>
-				<td><input type="text" id="join-form-14" class="form form-md"><span class="form-space">@</span><input type="text" class="form form-md "><select name="email-type1" id="" class="select form-ml ml20"><option>직접입력</option><option>Google.com</option><option>Naver.com</option></select></td>
-			</tr>
-		</tbody>
-	</table>
-	<div class="tac next-chapter">
-		<a href="#none" class="btn btn-lg point-spot1 point-width-md">회원가입</a>
-		<a href="#none" class="btn btn-lg point-spot2 point-width-md">다시작성</a>
-	</div>
-	
-
-</fieldset>
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+      <div class="sub-content">
+        <form action="">
+          <fieldset>
+            <h3 class="point-form_title point-sub-pencil point-spot mb0">회사정보 입력</h3>
+            <table class="table table-form">
+            <caption class="tar"><span class="alert">*</span>표시는 필수항목입니다. 반드시 기입해주세요</caption>
+              <col width="167" />
+              <col />
+              <tbody>
+                <tr>
+                  <th><label for="">회원구분</label><span class="alert">*</span></th>
+                  <td><label for="join-form-00">멘토</label>
+                    <input type="radio" id="join-form-00" name="join-form-00">
+                    <label for="join-form-001" class="ml20">전문가</label>
+                    <input type="radio" id="join-form-001" name="join-form-00" class="">
+                    <label for="join-form-002" class="ml20">회계법인</label>
+                    <input type="radio" id="join-form-002" name="join-form-00" class=""></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-01">회원아이디</label><span class="alert">*</span></th>
+                  <td><input type="text" id="join-form-1-01" class="form form-lg">
+                    <a class="btn btn-default custom-button1">중복검사</a><span class="point-explain">(영문 6자 이상 12자 이내 가능)</span></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-02">비밀번호</label><span class="alert">*</span></th>
+                  <td><input type="password" id="join-form-1-02" class="form form-lg"><span class="point-explain ml20">* (영문 숫자 포함 8자 이상 16자 이내가능)</span></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-03">비밀번호 확인</label><span class="alert">*</span></th>
+                  <td><input type="password" id="join-form-1-03" class="form form-lg"></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-04">회사/소속명</label><span class="alert">*</span></th>
+                  <td><input type="text" id="join-form-1-04" class="form form-xl"></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-05">사업자등록번호</label><span class="alert">*</span></th>
+                  <td>
+                  	<input type="text" id="join-form-1-05" class="form form-xl">
+                  	<a class="btn btn-default custom-button1">중복확인</a>
+                  	<span class="point-explain">* (- 없이 숫자만 입력)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-06">대표자명</label><span class="alert">*</span></th>
+                  <td><input type="text" id="join-form-1-06" class="form form-xl"></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-07">전화번호</label><span class="alert">*</span></th>
+                  <td><select name="join-form-1-07" id="join-form-1-07" class="select form-xs select-type1">
+                      <option value="">02</option>
+                      <option value="">031</option>
+                      <option value="">032</option>
+                      <option value="">033</option>
+                      <option value="">041</option>
+                      <option value="">042</option>
+                      <option value="">043</option>
+                      <option value="">044</option>
+                      <option value="">051</option>
+                      <option value="">052</option>
+                      <option value="">053</option>
+                      <option value="">054</option>
+                      <option value="">055</option>
+                      <option value="">061</option>
+                      <option value="">062</option>
+                      <option value="">063</option>
+                      <option value="">064</option>
+                      <option value="">070</option>
+                      <option value="">0505</option>
+                    </select>
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs">
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs"></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-1-08">팩스번호</label><span class="alert">*</span></th>
+                  <td><select name="join-form-1-08" id="join-form-1-08" class="select form-xs select-type1">
+                      <option value="">02</option>
+                      <option value="">031</option>
+                      <option value="">032</option>
+                      <option value="">033</option>
+                      <option value="">041</option>
+                      <option value="">042</option>
+                      <option value="">043</option>
+                      <option value="">044</option>
+                      <option value="">051</option>
+                      <option value="">052</option>
+                      <option value="">053</option>
+                      <option value="">054</option>
+                      <option value="">055</option>
+                      <option value="">061</option>
+                      <option value="">062</option>
+                      <option value="">063</option>
+                      <option value="">064</option>
+                      <option value="">070</option>
+                      <option value="">0505</option>
+                    </select>
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs ">
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs "></td>
+                </tr>
+                <tr>
+                  <th rowspan="3"><label for="join-form-1-9">주소</label><span class="alert">*</span></th>
+                  <td>
+                    <input type="text" class="form form-xs" id="join-form-1-9">
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs">
+                    <a class="btn btn-default custom-button1">우편번호</a>
+                  </td>
+                </tr>
+                <tr>
+               	  <td class="border-none">
+                   	<input type="text" id="join-form-1-06" class="form form-xl">
+                  </td>
+                </tr>
+                <tr>
+               	  <td class="border-none">
+                   	<input type="text" id="join-form-1-06" class="form form-xl" placeholder="나머지 상세주소 입력">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h3 class="point-form_title point-sub-document point-spot1">담당자정보 입력</h3>
+            <table class="table table-form">
+              <col width="167" />
+              <col />
+              <tbody>
+                <tr>
+                  <th><label for="join-form-2-01">성명 (담당자1)</label><span class="alert">*</span></th>
+                  <td><input type="text" id="join-form-2-01" class="form form-lg"></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-2-02">전화번호</label><span class="alert">*</span></th>
+                  <td><select name="join-form-2-02" id="join-form-2-02" class="select form-xs select-type1">
+                      <option value="">02</option>
+                      <option value="">031</option>
+                      <option value="">032</option>
+                      <option value="">033</option>
+                      <option value="">041</option>
+                      <option value="">042</option>
+                      <option value="">043</option>
+                      <option value="">044</option>
+                      <option value="">051</option>
+                      <option value="">052</option>
+                      <option value="">053</option>
+                      <option value="">054</option>
+                      <option value="">055</option>
+                      <option value="">061</option>
+                      <option value="">062</option>
+                      <option value="">063</option>
+                      <option value="">064</option>
+                      <option value="">070</option>
+                      <option value="">0505</option>
+                    </select>
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs ">
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs "></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-2-03">휴대폰번호</label><span class="alert">*</span></th>
+                  <td><select name="join-form-2-03" id="join-form-2-03" class="select form-xs select-type1">
+                      <option value="">010</option>
+                      <option value="">011</option>
+                      <option value="">016</option>
+                      <option value="">017</option>
+                      <option value="">018</option>
+                      <option value="">019</option>
+                    </select>
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs ">
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs "></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-2-04">이메일</label><span class="alert">*</span></th>
+                  <td><input type="text" id="join-form-2-04" class="form form-md">
+                    <span class="form-space">@</span>
+                    <input type="text" class="form form-md">
+                    <select name="email-type1" id="" class="select form-md select-type1 ml20">
+                      <option>직접입력</option>
+                      <option>Google.com</option>
+                      <option>Naver.com</option>
+                    </select></td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <th><label for="join-form-2-01">성명 (담당자2)</label><span class="alert">*</span></th>
+                  <td><input type="text" id="join-form-2-01" class="form form-lg"></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-2-02">전화번호</label><span class="alert">*</span></th>
+                  <td><select name="join-form-2-02" id="join-form-2-02" class="select form-xs select-type1">
+                      <option value="">02</option>
+                      <option value="">031</option>
+                      <option value="">032</option>
+                      <option value="">033</option>
+                      <option value="">041</option>
+                      <option value="">042</option>
+                      <option value="">043</option>
+                      <option value="">044</option>
+                      <option value="">051</option>
+                      <option value="">052</option>
+                      <option value="">053</option>
+                      <option value="">054</option>
+                      <option value="">055</option>
+                      <option value="">061</option>
+                      <option value="">062</option>
+                      <option value="">063</option>
+                      <option value="">064</option>
+                      <option value="">070</option>
+                      <option value="">0505</option>
+                    </select>
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs ">
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs "></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-2-03">휴대폰번호</label><span class="alert">*</span></th>
+                  <td><select name="join-form-2-03" id="join-form-2-03" class="select form-xs select-type1">
+                      <option value="">010</option>
+                      <option value="">011</option>
+                      <option value="">016</option>
+                      <option value="">017</option>
+                      <option value="">018</option>
+                      <option value="">019</option>
+                    </select>
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs ">
+                    <span class="form-space">-</span>
+                    <input type="text" class="form form-xs "></td>
+                </tr>
+                <tr>
+                  <th><label for="join-form-2-04">이메일</label><span class="alert">*</span></th>
+                  <td><input type="text" id="join-form-2-04" class="form form-md">
+                    <span class="form-space">@</span>
+                    <input type="text" class="form form-md">
+                    <select name="email-type1" id="" class="select form-md select-type1 ml20">
+                      <option>직접입력</option>
+                      <option>Google.com</option>
+                      <option>Naver.com</option>
+                    </select></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="tac next-chapter"> <a href="#none" class="btn btn-lg point-spot1 point-width-md">회원가입</a> <a href="#none" class="btn btn-lg point-spot2 point-width-md">다시작성</a> </div>
+          </fieldset>
+        </form>
+        </div>
 	<!-- /.sub-content -->
 	
 <!-- Sub Footer.html -->
 </div>
 <!-- //Sub Footer.html -->
-<!-- Footer.html -->
+    <!-- Footer.html -->
 		</div>
 	</div>
 	<div id="con_bottom">

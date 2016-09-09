@@ -7,8 +7,13 @@
 <div id="visual">
 	<div class="visual-content">
 		<ul>
-			<li>
-				
+			<li class="eq-01" style="background-image: url(<?php echo $config["resourcesDir"]; ?>/images/visual/main-visual.png)">
+				<a href="#none" class="btn-visual">협의회 안내 바로가기 <span>&gt;</span></a>
+			</li>
+			<li class="eq-01" style="background-image: url(<?php echo $config["resourcesDir"]; ?>/images/visual/main-visual.png)">
+				<a href="#none" class="btn-visual">협의회 안내 바로가기 <span>&gt;</span></a>
+			</li>
+			<li class="eq-01" style="background-image: url(<?php echo $config["resourcesDir"]; ?>/images/visual/main-visual.png)">
 				<a href="#none" class="btn-visual">협의회 안내 바로가기 <span>&gt;</span></a>
 			</li>
 		</ul>
@@ -137,13 +142,15 @@
 			<a href="#none" class="btn-join">등록하기</a>
 		</div>
 		<div class="banner2 roll-banner">
-			<a href="#none"><span class="sr-only">간편서비스 이메일상담 신청하기</span></a>
-			<div class="roll-banner-pager">
+			<a href="#none" class="eq-01" style="background-image: url(<?php echo $config["resourcesDir"]; ?>/images/main/banner2-1.png)"><span class="sr-only">간편서비스 이메일상담 신청하기</span></a>
+			<a href="#none" class="eq-01" style="background-image: url(<?php echo $config["resourcesDir"]; ?>/images/main/banner2-1.png)"><span class="sr-only">간편서비스 이메일상담 신청하기</span></a>
+			<a href="#none" class="eq-01" style="background-image: url(<?php echo $config["resourcesDir"]; ?>/images/main/banner2-1.png)"><span class="sr-only">간편서비스 이메일상담 신청하기</span></a>
+		</div>
+		<div class="roll-banner-pager">
 				<a href="#none" class="on"></a>
 				<a href="#none"></a>
 				<a href="#none"></a>
 			</div>
-		</div>
 	</div>
 	<div class="con4 col-xs-4">
 		<a href="#none">

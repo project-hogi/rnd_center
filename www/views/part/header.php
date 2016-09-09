@@ -30,23 +30,28 @@
 								<a href="rnd-choice-1.php">선정기업</a>
 								<ul>
 									<li><a href="rnd-choice-1.php">기업정보</a></li>
-									<li><a href="rnd-choice-2.php">반기 주요경영상황보고</a></li>
-									<li><a href="rnd-choice-3.php">제출서류 연차보고서 관련규정</a></li>
+									<li><a href="rnd-choice-2.php">반기주요경영상황보고</a></li>
+									<li><a href="rnd-choice-3.php">연차보고서</a></li>
 									<li><a href="rnd-choice-4.php">수시보고서</a></li>
 									<li><a href="rnd-choice-5.php">비밀번호변경</a></li>
 								</ul>
 							</li>
 							<li>
 								<a href="rnd-invest.php">투자기관</a>
+								<ul>
+									<li><a href=rnd-invest-1.php>투자심사신청기업정보</a></li>
+									<li><a href=rnd-invest-2.php>투자기업현황</a></li>
+									<li><a href=rnd-invest-3.php>회원정보수정</a></li>
+								</ul>
 							</li>
 							<li>
 								<a href="rnd-application.php">신청기업</a>
-							</li>
-							<li>
-								<a href="rnd-selection.php">선정신청</a>
-							</li>
-							<li>
-								<a href="rnd-7.php">투자기관</a>
+								<ul>
+									<li><a href="rnd-application-1.php">기업정보등록</a></li>
+									<li><a href="rnd-application-2.php">투자심사 진행현황</a></li>
+									<li><a href="rnd-application-3.php">투자협상 현황등록</a></li>
+									<li><a href="rnd-application-4.php">비밀번호변경</a></li>
+								</ul>
 							</li>
 						</ul>
 					</li>

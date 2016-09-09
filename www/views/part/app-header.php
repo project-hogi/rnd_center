@@ -66,5 +66,5 @@ $config["imageDir"] = $config["resourcesDir"]  . "/images";
 <script src="<?php echo $config["resourcesDir"]; ?>/js/script.min.js"></script>
 <?php } ?>
 </head>
-<body class="<?php echo getBodyClass($bodyClass); ?>">
+<body class="<?php echo getBodyClass($pagePath, $bodyClass); ?>">
 <!-- //App Header.html -->
