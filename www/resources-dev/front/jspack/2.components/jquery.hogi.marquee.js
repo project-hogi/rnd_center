@@ -34,14 +34,14 @@
 				return false;
 			}
 
+			$containerInner.find(">*").each(function() {
+				innerContainerWidth += $(this).outerWidth(true);
+			});
+
 			$containerInner.wrap($("<div class=\"marquee-container\">"));
 			$container = $containerInner.parent().wrap($("<div class=\"marquee-container-outer\">"));
 			$containerOuter = $container.parent();
 			$containerInner.addClass("marquee-container-inner");
-
-			$containerInner.find(">*").each(function() {
-				innerContainerWidth += $(this).outerWidth(true);
-			});
 
 			$containerInner.css({
 				"width" : innerContainerWidth

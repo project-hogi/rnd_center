@@ -1,7 +1,32 @@
 <!-- Header.html -->
-<div id="skip_nav">
-	<a href="content">본문바로가기</a>
+<div id="login-box">
+	<h1>기술헉신 로그인  <span>신청기업</span></h1>
+	<div class="text-box">
+		<p>중소기업기술혁신개발사업 투자연계과제를 신청 완료하셨습니까?<br>
+			협의회에서 안내 받으신 아이디와 임시비밀번호를 입력하시고,<br>
+			비밀번호 변경 후 신청 기업정보(투자심사신청)를 입력하세요.</p>
+		<span class="point-login">기술혁신개발사업 투자연계과제 신청기업</span>
+	</div>
+	<div class="form-login">
+		<form action="">
+			<table cellpadding="0">
+				<tbody>
+				<tr>
+					<th><label for="form-login-id">아이디</label></th>
+					<td width="150"><input type="text" id="form-login-id" class=""/></td>
+					<td rowspan="3"><a href="#none" class="btn btn-login"/><span class="sr-only">로그인</span></td>
+				</tr>
+				<tr style="margin-top:20px;">
+					<th width="150"><label for="form-login-id">비밀번호</label></th>
+					<td><input type="password" id="form-login-id" class=""/></td>
+				</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	<a href="#none" class="btn btn-login-close"><span class="sr-only">close</span></a>
 </div>
+<!-- /#login-box -->
 <div id="wrap">
 	<div id="header">
 		<div class="container">
@@ -9,7 +34,7 @@
 			<div class="lnb">
 				<ul>
 					<li>
-						<a href="rnd-info-1.php">R&amp;D지원사업</a>                                    
+						<a href="rnd-info-1.php">R&amp;D지원사업</a>
 						<ul>
 							<li>
 								<a href="rnd-info-1.php">사업안내</a>
@@ -18,7 +43,7 @@
 									<li><a href="rnd-info-2.php">진행절차</a></li>
 									<li><a href="rnd-info-3.php">제출서류 및 관련규정</a></li>
 								</ul>
-							</li>                        
+							</li>
 							<li>
 								<a href="rnd-join-1.php">회원가입</a>
 								<ul>
@@ -75,15 +100,15 @@
 							<li><a href="#none">Online IR</a></li>
 							<li><a href="#none">IR등록(수정)</a></li>
 							<li><a href="#none">실시간 IR</a></li>
-						</ul> 
+						</ul>
 					</li>
 					<li>
 						<a href="sub4-1.php">정보마당</a>
 						<ul>
 							<li><a href="sub4-1.php">공지사항</a></li>
 							<li><a href="sub4-2.php">자료실</a></li>
-							<li><a href="sub4-3.php">E-mail상담</a></li>
-							<li><a href="sub4-4.php">FAQ</a></li>
+							<li><a href="sub4-3.php">FAQ</a></li>
+							<li><a href="sub4-4.php">E-mail상담</a></li>
 						</ul>
 					</li>
 					<li>
@@ -110,7 +135,7 @@
 			</ul>
 			<!-- /.gnb -->
 			<a href="#none" class="btn-pds">자료 다운로드</a>
-			
+
 			<div class="header_menu">
 				<a href="#search" class="btn-search"><span class="sr-only">검색</span></a>
 				<a href="#sitemap" class="btn-sitemap"><span class="sr-only">사이트맵</span></a>
@@ -118,7 +143,7 @@
 		</div>
 	</div>
 	<div id="container">
-<!-- Header.html -->
+		<!-- Header.html -->
 
 
 
