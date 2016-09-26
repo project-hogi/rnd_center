@@ -127,7 +127,7 @@
 			</div>
 			<!-- /.lnb -->
 			<ul class="gnb">
-				<li><a href="#none" class="btn-login">로그인</a></li>
+				<li><a href="login.php" class="btn-login">로그인</a></li>
 				<li><a href="#none">회원가입 </a></li>
 				<li><a href="#none">이용안내</a></li>
 				<li><a href="#none">사이트맵</a></li>

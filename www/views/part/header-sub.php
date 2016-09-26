@@ -33,6 +33,8 @@
 				<?php } else if(getDepthId($pagePath, 1) == "3"){ ?>
 					&nbsp;
 				<?php } ?>
+			<?php } else if(getDepthId($pagePath, 0) == "login"){ ?>
+				회원 로그인
 			<?php } ?>
 		</h2>
 		<p>
@@ -62,6 +64,8 @@
 				<?php } else if(getDepthId($pagePath, 1) == "3"){ ?>
 					&nbsp;
 				<?php } ?>
+			<?php } else if(getDepthId($pagePath, 0) == "login"){ ?>
+				R&D 사업화투자협의회의 다양한 서비스를 이용하실 수 있습니다.
 			<?php } ?>
 		
 		
