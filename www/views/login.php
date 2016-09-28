@@ -5,7 +5,7 @@
 <?php require "part/header.php"; ?>
 <?php require "part/header-sub.php"; ?>
 <div class="sub-content">
-    <ul class="login-option-check">
+    <ul class="login-option-check list-03">
         <li class="eq-01 on">
             <a href="#none">
                 <span>신청기업</span>
