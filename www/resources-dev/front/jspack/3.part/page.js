@@ -156,10 +156,67 @@
 			$('.gnb .btn-login').on('click',function(){
 				$('#login-box').addClass('on')
 			});
-
 		});
+		var $body = $('body');
+		var $siteMap = $('.sitemap');
+		var $btnSitemap = $('.btn-sitemap, .btn-sitemap2');
+
+		$btnSitemap.on('click',function(e){
+			e.preventDefault();
+			$body.css('position','fixed');
+			$siteMap.addClass('on');
+		})
+		$siteMap.each(function(){
+			var $btnSitemapClose = $siteMap.find('.btn-sitemap-close');
+
+			$btnSitemapClose.on('click',function(e){
+				e.preventDefault();
+				$body.css('position','static');
+				$siteMap.removeClass('on');
+			})
+		});
+
+
 
 
 	});
 
 })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
