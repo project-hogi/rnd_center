@@ -1,0 +1,309 @@
+/* sub 페이지 공통 상단 */
+#sub-top{
+  overflow: hidden;
+}
+.location{
+  height: 55px;
+  margin-top: 30px;
+  text-align: center;
+
+  a{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    color: #aaa;
+    font-size: 11px;
+
+    &:after{
+      clear: both;display: block;content: '>';
+      position: absolute;
+      left: -10px;
+      top: 5px;
+      padding: 5px;
+      font-size: 10px;
+    }
+    &.home{
+      padding-left: 30px;
+    }
+    &.home:after{
+      content: '';
+      position: absolute;
+      left: 0px;
+      top:7px;
+      width: 22px;
+      height: 22px;
+      padding: 0;
+      padding-left: 20px;
+      background: url(../images/sub/home.png)0 0 no-repeat;
+
+    }
+
+    &.here{
+      color: #333;
+    }
+  }
+
+}
+.tit_area{
+
+  font-size: 30px;
+  color: #333;
+
+  h2{
+    text-align: center;
+  }
+
+  p{
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #707070;
+  }
+}
+.snb{
+  width: 800px;
+  margin: auto;
+  border: 1px solid #e3e3e3;
+
+  &:after{
+    clear: both;display: block;content: '';
+  }
+  li{
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    border-left: 1px solid #e3e3e3;
+
+    &:first-child{
+      border: 0;
+    }
+
+    &.on{
+      background-color: #2e3c60;
+
+      a{
+
+        span{
+          color: #fff;
+        }
+      }
+    }
+    a{
+      display: block;
+      height: 50px;
+
+      span{
+        display: inline-block;
+        color: #888;
+        vertical-align: middle;
+
+        &:before{
+          display: inline-block;
+          content: '';
+          width: 1px;
+          height: 50px;
+          vertical-align: middle;
+        }
+      }
+
+    }
+
+
+  }
+
+  &.list1 li{width: 100%;}
+  &.list2 li{width: 50%;}
+  &.list3 li{width: 33.3%;}
+  &.list4 li{width: 25%;}
+  &.list5 li{width: 20%;}
+  &.list6 li{width: 16.6%;}
+  &.list8 li{width: 14.2%;}
+  &.list8 li{width: 12.5%;}
+}
+
+/* #content */
+.sub-content{
+  width: 800px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+/* custom */
+.custom-button1{
+  margin: 0 10px 0;
+  border: 1px solid #bababa;
+  font-weight: bold;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,e8e8e8+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 1%, #e8e8e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #ffffff 1%,#e8e8e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #ffffff 1%,#e8e8e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+}
+.way_map{
+  width: 100%;
+  min-width: 800px;
+  margin: 35px 0;
+
+}
+.way-address{
+  width: 520px;
+  margin: auto;
+  text-align: center;
+
+  h3{
+    margin: 20px 0;
+    font-size: 20px;
+    color: green;
+    position: relative;
+
+    &:after{
+      clear: both;display: block;content: '';
+      width: 80px;height: 1px;
+      background-color: green;
+      position: absolute;left: 50%;top: 25px;margin-left: -40px;
+    }
+  }
+  h4{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 12px;
+    text-align: center;
+  }
+  [class^="image-"]{
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    background: url(../images/page/way.png)0 0 no-repeat;
+  }
+  .image-2{
+    background-position: 0 -86px;
+  }
+}
+
+.login-option-check{
+  width: 100%;
+  border: 1px solid #ddd;
+
+  &:after{
+    clear: both;
+    display: block;
+    content: '';
+  }
+  &.list-01{
+    li{
+      width: 100%;
+    }
+  }
+  &.list-02{
+    li{
+      width: 50%;
+    }
+  }
+  &.list-03{
+    li{
+      width: 33.3%;
+    }
+  }
+  &.list-04{
+    li{
+      width: 25%;
+    }
+  }
+  &.list-05{
+    li{
+      width: 20%;
+    }
+  }
+  &.list-06{
+    li{
+      width: 33.3%;
+    }
+  }
+  &.list-07{
+    li{
+      width: 25%;
+    }
+  }
+  li{
+    width: 100%;
+    height: 200px;
+    float: left;
+    position: relative;
+    background: #fff url(../images/login/login-eq-01.png)no-repeat 50% 50%;
+    outline: 1px solid #ddd;
+
+    a{
+      display: block;
+      height: 100%;
+
+      span{
+        display: inline-block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 55px;
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+    
+    &.eq-01{
+      background-image: url(../images/login/login-eq-01.png);
+      &:hover{
+        background-image: url(../images/login/login-eq-01-on.png);
+      }
+    }
+    &.eq-02{
+      background-image: url(../images/login/login-eq-02.png);
+      &:hover{
+        background-image: url(../images/login/login-eq-02-on.png);
+      }
+    }
+    &.eq-03{
+      background-image: url(../images/login/login-eq-03.png);
+      &:hover{
+        background-image: url(../images/login/login-eq-03-on.png);
+      }
+    }
+    &.eq-04{
+      background-image: url(../images/login/login-eq-04.png);
+      &:hover{
+        background-image: url(../images/login/login-eq-04-on.png);
+      }
+    }
+    &.eq-05{
+      background-image: url(../images/login/login-eq-05.png);
+      &:hover{
+        background-image: url(../images/login/login-eq-05-on.png);
+      }
+    }
+    &.eq-06{
+      background-image: url(../images/login/login-eq-06.png);
+      &:hover{
+        background-image: url(../images/login/login-eq-06-on.png);
+      }
+    }
+    &.eq-07{
+      background-image: url(../images/login/login-eq-07.png);
+      &:hover{
+        background-image: url(../images/login/login-eq-07-on.png);
+      }
+    }
+
+    &:hover{
+      background-color: #2e3c60;
+      a{
+        span{
+          color: #fff;
+        }
+      }
+    }
+  }
+}

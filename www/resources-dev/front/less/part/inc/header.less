@@ -1,0 +1,247 @@
+
+/* header */
+#header{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 140px;
+  padding-top: 40px;
+  background: #3c5493 url(../images/header/bg.png)0 0 repeat-x;
+  z-index: 300;
+  overflow: hidden;
+
+  &.depth2{
+    height: 190px;
+
+    &.depth3{
+      height: 240px;
+
+    }
+  }
+}
+.site-logo{
+  padding-top: 25px;
+  margin: 0;
+  float: left;
+}
+.site-logo a{
+  display: inline-block;
+  width: 230px;height: 45px;
+  background: url(../images/header/logo.png)0 0 repeat-x;
+}
+.lnb{
+  float: left;
+  margin-left: 68px;
+
+  &>ul{
+
+    &>li{
+      position: relative;
+      display: inline-block;
+      height: 100px;
+
+      &.on{
+
+        &>a{
+          color: #ef624e;
+        }
+
+        &>ul{
+          display: block;
+        }
+      }
+
+      &>a{
+        display: inline-block;
+        height: 100%;
+        font-size: 17px;
+        font-weight: bold;
+        vertical-align: middle;
+        padding: 40px 15px;
+
+
+        &:before{
+          display: inline-block;
+          content: '';
+          width: 1px;
+          height: 100%;
+          vertical-align: middle;
+        }
+      }
+
+      &>ul{
+        display: none;
+        position: absolute;
+        left: 0;top: 100px;
+        width: 500px;
+
+        &>li{
+          height: 50px;
+          float: left;
+
+
+          &.on{
+
+            &>a{
+              color: #f7ad37;
+            }
+
+            &>ul{
+              display: block;
+
+            }
+          }
+
+          &>a{
+            display: inline-block;
+            padding: 12px 7px;
+            color: #fff;
+            position: relative;
+
+            &:after{
+              clear: both;display: block;content: '';
+              width: 1px;height: 12px;
+              position: absolute;
+              left: 0;top: 50%;margin-top: -5px;
+              background-color: #fff;
+            }
+
+          }
+
+          &:first-child>a:after{
+            display: none;
+          }
+
+          &>ul{
+            display: none;
+            position: absolute;
+            left: 0;top: 50px;
+            width: 600px;
+
+            &>li{
+              float: left;
+
+              &.on{
+
+                &>a{
+                  color: #fde98e;
+                }
+              }
+
+              &>a{
+                display: inline-block;
+                padding: 12px 7px;
+                color: #fff;
+                position: relative;
+
+                &:after{
+                  clear: both;display: block;content: '';
+                  width: 1px;height: 12px;
+                  position: absolute;
+                  left: 0;top: 50%;margin-top: -5px;
+                  background-color: #fff;
+                }
+
+              }
+
+              &:first-child>a:after{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  ul{
+    &:after{
+      clear: both;display: block;content: '';
+    }
+  }
+}
+.gnb{
+  position: absolute;
+  right: 50%;
+  top: 9px;
+  margin-right: -500px;
+
+  li{
+    float: left;
+
+    a{
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #777;
+
+      &.btn-login{
+        padding: 4px 15px;
+        border: 1px solid #989ba0;
+        border-radius: 5px;
+        font-size: 11px;
+        color: #333;
+        background-color: #fff;
+      }
+    }
+
+    &:hover{
+      a{
+        font-weight: bold;
+        color: #2e3c60;
+      }
+    }
+
+  }
+
+  &:after{
+    clear: both;
+    display: block;
+    content: '';
+  }
+}
+
+.btn-pds{
+  position: absolute;
+  right: 50%;
+  top: 70px;
+  margin-right: -500px;
+  display: inline-block;
+  height: 42px;
+  padding: 15px 20px;
+  padding-left: 38px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 12px;
+  background: #f3f3f3 url(../images/header/btn-pds.png)20px 50% no-repeat;
+  border-radius: 21px;
+
+  &:hover{
+    background-color: #2e3c60;
+    color: #fff;
+  }
+
+}
+.header_menu{
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  &:after{
+    clear: both;display: block;content: '';
+  }
+  a{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url(../images/header/header_menu.png)0 0 no-repeat;
+
+    &.btn-sitemap{
+      background-position: -40px 0;
+
+    }
+  }
+
+
+}
+
