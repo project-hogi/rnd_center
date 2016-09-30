@@ -120,10 +120,10 @@
 				pauseOnHover : true,
 				pagerActiveClass : 'on'
 			};
-			var $prev = $('.btn-prev').each(function() {
+			var $prev = $visual.find('.btn-prev').each(function() {
 				options.prev = this;
 			});
-			var $next = $('.btn-next').each(function() {
+			var $next = $visual.find('.btn-next').each(function() {
 				options.next = this;
 
 				setTimeout(function() {
@@ -156,67 +156,10 @@
 			$('.gnb .btn-login').on('click',function(){
 				$('#login-box').addClass('on')
 			});
+
 		});
-		var $body = $('body');
-		var $siteMap = $('.sitemap');
-		var $btnSitemap = $('.btn-sitemap, .btn-sitemap2');
-
-		$btnSitemap.on('click',function(e){
-			e.preventDefault();
-			$body.css('position','fixed');
-			$siteMap.addClass('on');
-		})
-		$siteMap.each(function(){
-			var $btnSitemapClose = $siteMap.find('.btn-sitemap-close');
-
-			$btnSitemapClose.on('click',function(e){
-				e.preventDefault();
-				$body.css('position','static');
-				$siteMap.removeClass('on');
-			})
-		});
-
-
 
 
 	});
 
 })(jQuery);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
