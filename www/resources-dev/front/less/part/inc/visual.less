@@ -3,21 +3,44 @@
   position: relative;
   width: 100%;
   height: 430px;
-  background-color: #b9ebf2;
 
   .visual-content{
     position: relative;
 
     ul{
-      width: 1000px;
-      margin: auto;
 
       li{
         position: absolute;
-        width: 1120px;
+        width: 100%;
         height: 430px;
-        background: url(../images/visual/main-visual.png)0 0 no-repeat;
-        overflow: auto;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        overflow: hidden;
+        
+        img{
+          position: absolute;
+          left: 50%;
+          top: 0;
+          margin-left: -500px;
+          width: 1000px;
+          
+        }
+  
+        &.eq-01{
+          background-color: #b9ebf2;
+          background-image: url(../images/visual/visual-0-bg.jpg)0 0 no-repeat;
+          img{
+            width: 1120px;
+          }
+        }
+        &.eq-02{
+          background-image: url(../images/visual/visual-1-bg.jpg)0 0 no-repeat;
+        }
+        &.eq-03{
+          background-image: url(../images/visual/visual-2-bg.jpg)0 0 no-repeat;
+        }
+        
+        
       }
     }
   }
@@ -80,11 +103,13 @@
 }
 .btn-visual{
   position: absolute;
-  left: 44px;
+  left: 50%;
   top: 216px;
   display: inline-block;
   width: 169px;
   height: 39px;
+  margin-left: -456px;
+  
   border: 1px solid #76939f;
   text-align: center;
   vertical-align: middle;
@@ -113,7 +138,7 @@
     li{
       display: inline-block;
       height: 109px;
-      margin-left: 30px;
+      margin: 0 30px;
       background: url(../images/banner/main-banner.png)0 30px no-repeat;
 
       &:first-child{

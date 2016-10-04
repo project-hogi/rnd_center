@@ -150,33 +150,44 @@
   .banner2{
     height: 50%;
   }
-
+  
+  .btn-join{
+    position: absolute;
+    left: 37px;
+    top: 95px;
+    display: inline-block;
+    padding: 3px 10px 3px 30px;
+    background: url(../images/main/btn-join.png)10px 50% no-repeat;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    color: #fff;
+    
+    &:hover{
+      background-color: #54b7f6;
+      color: #333;
+    }
+    
+  }
   .banner1{
     background: url(../images/main/banner1.png)0 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 
-    .btn-join{
-      position: absolute;
-      left: 37px;
-      top: 95px;
-      display: inline-block;
-      padding: 3px 10px 3px 30px;
-      background: url(../images/main/btn-join.png)10px 50% no-repeat;
-      border: 1px solid #d4d4d4;
-      border-radius: 3px;
-      color: #fff;
-
-      &:hover{
-        background-color: #54b7f6;
-        color: #333;
-      }
-
-    }
   }
   .banner2{
-
+    span.btn-join{
+      color: #fff !important;
+      border-color: #fff;
+      
+      &:hover{
+        color: #333  !important;
+      }
+    }
+    
   }
+  
+  
+
 }
 .roll-banner{
   position: relative;
