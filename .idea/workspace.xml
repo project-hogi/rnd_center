@@ -54,7 +54,7 @@
       <file leaf-file-name="sub.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/inc/sub.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
+            <state relative-caret-position="1121">
               <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
               <folding />
             </state>
@@ -199,7 +199,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -438,6 +437,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -527,11 +527,12 @@
       <workItem from="1475580835146" duration="3866000" />
       <workItem from="1475629335959" duration="73000" />
       <workItem from="1475634254965" duration="700000" />
+      <workItem from="1475718756713" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27182000" />
+    <option name="totallyTimeSpent" value="27192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="3" width="2481" height="1444" extended-state="0" />
@@ -886,7 +887,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/resources-dev/front/less/part/inc/sub.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
+        <state relative-caret-position="1121">
           <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding />
         </state>

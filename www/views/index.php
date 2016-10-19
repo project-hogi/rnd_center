@@ -9,7 +9,7 @@
 		<ul>
 			<li class="eq-01" style="background-image: url('<?php echo $config["resourcesDir"]; ?>/images/visual/visual-0-bg.jpg');">
 				<img src="<?php echo $config["resourcesDir"]; ?>/images/visual/main-visual-0.png" alt="">
-				<a href="#none" class="btn-visual">협의회 안내 바로가기 <span>&gt;</span></a>
+				<a href="#none" class="btn-visual">투자연계과제 안내 바로가기 <span>&gt;</span></a>
 			</li>
 			<li class="eq-02" style="background-image: url('<?php echo $config["resourcesDir"]; ?>/images/visual/visual-1-bg.jpg');">
 				<img src="<?php echo $config["resourcesDir"]; ?>/images/visual/main-visual-1.png" alt="">
@@ -17,7 +17,7 @@
 			</li>
 			<li class="eq-03" style="background-image: url('<?php echo $config["resourcesDir"]; ?>/images/visual/visual-2-bg.jpg');">
 				<img src="<?php echo $config["resourcesDir"]; ?>/images/visual/main-visual-2.png" alt="">
-				<a href="#none" class="btn-visual">협의회 안내 바로가기 <span>&gt;</span></a>
+				<a href="#none" class="btn-visual">투자연계과제 Online-IR 바로가기 <span>&gt;</span></a>
 			</li>
 		</ul>
 		<div class="visual-pager">
